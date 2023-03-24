@@ -1,7 +1,7 @@
 # Capstone-Project---Group-3
 Drowsiness Detection in Truck Drivers
 
-Assessment – Project proposal
+Project proposal
 
 1.	Problem Statement
 One of the major contributing reasons to traffic accidents is truck driver weariness. Some long-distance drivers report falling asleep behind the wheel. Such sleep loss and daytime weariness can have major negative effects on one's personal and professional life. Drowsiness detection is a crucial aspect in several domains such as transportation, healthcare, and work safety, as drowsiness can lead to serious accidents or mistakes. The current methods for detecting drowsiness are either intrusive or unreliable. Truck drivers may become fatigued while operating a vehicle for a variety of reasons, including stress and lack of sleep. 
