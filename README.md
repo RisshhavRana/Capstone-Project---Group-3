@@ -8,7 +8,8 @@ Project proposal
 One of the major contributing reasons to traffic accidents is truck driver weariness. Some long-distance drivers report falling asleep behind the wheel. Such sleep loss and daytime weariness can have major negative effects on one's personal and professional life. Drowsiness detection is a crucial aspect in several domains such as transportation, healthcare, and work safety, as drowsiness can lead to serious accidents or mistakes. The current methods for detecting drowsiness are either intrusive or unreliable. Truck drivers may become fatigued while operating a vehicle for a variety of reasons, including stress and lack of sleep. 
 Our endeavour intends to create a drowsiness detection agent using Machine Learning to stop and lessen such tragedies.
 
-3.	Why is this problem important?
+2.	Why is this problem important?
+
 Drowsy driving is a serious safety hazard, as it impairs a driver's ability to react to changing road conditions and increases the risk of accidents. In fact, drowsy driving is estimated to cause over 100,000 crashes and 1,550 deaths in the United States each year.
 Drowsy driving can lead to fatigue-related accidents, which are often more severe than other types of accidents. This is because drowsy drivers are more likely to lose control of their vehicle, fall asleep at the wheel, or have delayed reaction times.
 By detecting drowsiness in real-time and alerting the driver, the system can help to improve road safety and reduce the number of fatigue-related accidents.
@@ -16,14 +17,14 @@ The system can also increase awareness among drivers about the dangers of drowsy
 Legal Compliance: In some regions, it is mandatory to install drowsiness detection systems in commercial vehicles, and failure to comply with these regulations can result in fines or penalties.
 
 
-4.	Solution Outline
+3.	Solution Outline
 a.	The first step would be to collect a diverse and representative dataset of drowsy and non-drowsy individuals.
 b.	We will process the collected data to remove noise, outliers, and irrelevant information. The data should also be normalized to ensure that it is suitable for use in Machine Learning models.
 b.	We will deploy simulation on our laptop by accessing our camera using python and get image frames. We will be using OpenCV and Keras using which we can achieve our objectives. We will gather images from a camera using OpenCV and feed them into a Deep Learning model.
 d.	In addition we will be adding some more feature like yawning to improve the reliability on the system.
 
 
-5.	Tools/Technology Required 
+4.	Tools/Technology Required 
 a. Physical sensor if required like Camera.
 b. Python.
 c. Machine learning.
@@ -32,10 +33,10 @@ e. ML libraries like Tensor Flow, Keras.
 f. Visualization and reporting tools, such as Matplotlib, Seaborn, and Plotly.
 
 
-6.	How does this solution compare to existing solutions, or to previous attempts to solve this problem?
+5.	How does this solution compare to existing solutions, or to previous attempts to solve this problem?
 In recent years, there has been a great deal of research into the use of automatic driver drowsiness detection to minimise traffic accidents and fatalities. These systems consist of image processing techniques using deep learning which makes a prediction if the driver behind the wheel is sleepy. Many studies have been conducted to produce drowsiness systems. There are initiatives where people have tried to create a system that can tell if a driver is nodding off by looking tired. Also, there are systems base on the steering wheel movement to detect the drowsiness, but such systems are heavy depended on conditions of road which creates a bias when they are applied to a vehicle driven on bad condition roads. To create an effective model, we will be evaluating many other features, such as yawning and nodding the head behind the wheels, which will contribute to the development of a more dependable system.
 
-7.	How are you evaluating your solution? And how feasible is it?
+6.	How are you evaluating your solution? And how feasible is it?
 
 A machine learning-based sleepiness detection system must have its performance evaluated in several different ways.
 a.	By calculating the Accuracy, which gives us the measure of true positive and true negative.
