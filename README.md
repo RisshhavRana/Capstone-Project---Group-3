@@ -18,13 +18,15 @@ Legal Compliance: In some regions, it is mandatory to install drowsiness detecti
 
 
 3.	Solution Outline
+
 a.	The first step would be to collect a diverse and representative dataset of drowsy and non-drowsy individuals.
 b.	We will process the collected data to remove noise, outliers, and irrelevant information. The data should also be normalized to ensure that it is suitable for use in Machine Learning models.
 b.	We will deploy simulation on our laptop by accessing our camera using python and get image frames. We will be using OpenCV and Keras using which we can achieve our objectives. We will gather images from a camera using OpenCV and feed them into a Deep Learning model.
 d.	In addition we will be adding some more feature like yawning to improve the reliability on the system.
 
 
-4.	Tools/Technology Required 
+4.	Tools/Technology Required
+
 a. Physical sensor if required like Camera.
 b. Python.
 c. Machine learning.
@@ -34,6 +36,7 @@ f. Visualization and reporting tools, such as Matplotlib, Seaborn, and Plotly.
 
 
 5.	How does this solution compare to existing solutions, or to previous attempts to solve this problem?
+
 In recent years, there has been a great deal of research into the use of automatic driver drowsiness detection to minimise traffic accidents and fatalities. These systems consist of image processing techniques using deep learning which makes a prediction if the driver behind the wheel is sleepy. Many studies have been conducted to produce drowsiness systems. There are initiatives where people have tried to create a system that can tell if a driver is nodding off by looking tired. Also, there are systems base on the steering wheel movement to detect the drowsiness, but such systems are heavy depended on conditions of road which creates a bias when they are applied to a vehicle driven on bad condition roads. To create an effective model, we will be evaluating many other features, such as yawning and nodding the head behind the wheels, which will contribute to the development of a more dependable system.
 
 6.	How are you evaluating your solution? And how feasible is it?
